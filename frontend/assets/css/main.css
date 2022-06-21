@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.carousel-item img {
+  width: 524px;
+  height: 617px;
+}
+
+.summary {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.summary h3 {
+  font-size: 3rem;
+}
+
+.summary h2 {
+  font-size: 5rem;
+}
+
+.summary p {
+  font-size: 1.2rem;
+}
+
+.summary .btn-container {
+  margin-top: 50px;
+}
+
+.summary .btn-container .button {
+  background-color: #abd373 !important;
+  color: white;
+  padding: 25px 40px;
+  border: 1px solid #abd373;
+  border-radius: 30px;
+  text-decoration: none;
+  outline: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.summary .btn-container .button:hover {
+  background-color: gray;
+}
+
+#features {
+  padding-top: 80px;
+}
+
+.features-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.features-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  border: 1px dashed green;
+  padding: 5px 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.features-summary span {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 870px) and (min-width: 600px) {
+  .summary {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .summary h3 {
+    font-size: 2rem;
+  }
+  .summary h2 {
+    font-size: 3rem;
+  }
+  .summary p {
+    font-size: 1rem;
+  }
+  .btn-container {
+    padding: 5px;
+    margin-bottom: 50px;
+  }
+}
